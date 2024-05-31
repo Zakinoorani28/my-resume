@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ResumeStyle.css */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    border: 2px solid gray;
+    margin: 16px;
+}
+
+.left-column {
+    background-color: #005d89;
+    color: white;
+    width: 30%;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.right-column {
+    width: 70%;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.right-column h2 {
+    color: #005d89;
+    text-decoration: underline;
+}
+
+.contact-info {
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.contact-info h2 {
+    font-size: larger;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.contact-info h3 {
+    font-size: large;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-info img {
+    max-width: 100%;
+    height: auto;
+    width: 75%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid white;
+}
+
+.education,
+.awards {
+    margin-bottom: 20px;
+}
+
+.education ul,
+.awards ul,
+.certificate ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+.profile p {
+    margin: 10px;
+    font-size: 400;
+    font-weight: 300;
+}
+
+.education li,
+.awards li {
+    margin-bottom: 10px;
+}
+
+.profile,
+.skills,
+.experience {
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin: 10px;
+}
+
+.skills li {
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.experience ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin: 10px;
+}
+
+.experience li {
+    margin-bottom: 20px;
+}
+
+/* Responsive design for mobile screen size */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-column {
+        width: 100%;
+        border-right: none;
+    }
+
+    .right-column {
+        width: 100%;
+    }
+}
