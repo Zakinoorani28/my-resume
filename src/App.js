@@ -10,7 +10,7 @@ function App() {
       <div className="left-column">
         <div className="contact-info">
           <img src={image} alt="MyImage" />
-          <h2>MUHAMMAD ZAKI NOORANI</h2>
+          <h1 className="heading">MUHAMMAD ZAKI NOORANI</h1>
           <h3>WEB AND MOBILE APP DEVELOPER</h3>
           <p><a href="tel:+923201294154"><i className="ri-phone-fill"></i>+923201294154</a></p>
           <p><a href="mailto:zakinoorani2006@gmail.com"><i className="ri-mail-fill"></i> zakinoorani2006@gmail.com</a></p>

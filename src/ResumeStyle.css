@@ -23,6 +23,11 @@
     border-right: 1px solid #ccc;
 }
 
+.left-column h2 {
+    color:#ccc;
+    text-decoration: underline;
+}
+
 .right-column {
     width: 70%;
     padding: 20px;
@@ -42,7 +47,7 @@
 
 }
 
-.contact-info h2 {
+.heading {
     font-size: larger;
     font-weight: 800;
     padding-bottom: 10px;
