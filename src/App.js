@@ -6,6 +6,7 @@ import image from './My Pic 1.jpg'
 
 function App() {
   return (
+
     <div className="container">
       <div className="left-column">
         <div className="contact-info">
@@ -46,12 +47,14 @@ function App() {
           </ul>
         </div>
       </div>
+
       <div className="right-column">
         <div className="profile">
           <h2>Profile</h2>
           <p>Highly motivated and experienced Web and Mobile App developer with 2+ years of
             experience in building scalable and efficient Websites and Applications.</p>
         </div>
+
         <div className="skills">
           <h2>Skills</h2>
           <ul>
@@ -61,12 +64,14 @@ function App() {
             <li>React JS</li>
             <li>Bootstrap</li>
             <li>Tailwind CSS</li>
-            <li>Resbonsive Web Design</li>
+            <li>Responsive Web Design</li>
             <li>Mobile App Development</li>
             <li>UI/UX Design</li>
             <li>Git/GitHub</li>
+            <li>Wordpress Developer</li>
           </ul>
         </div>
+
         <div className="experience">
           <h2>Experience</h2>
           <ul>
@@ -79,7 +84,7 @@ function App() {
             <li>
               <h3>Intern Software Developer</h3>
               <h4>eDesk Solutions (2023)</h4>
-              <p>Developed multiple Static ANd Dynamic Websites</p>
+              <p>Developed multiple Static And Dynamic Websites</p>
               <p>Improved Websites and And Learn More Skills</p>
             </li>
           </ul>
@@ -98,6 +103,7 @@ function App() {
             </li>
           </ul>
         </div>
+
       </div>
     </div>
   );
