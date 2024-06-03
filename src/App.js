@@ -46,6 +46,28 @@ function App() {
             <li>Certified UI/UX Designer from (Google) </li>
           </ul>
         </div>
+
+        <div className="footer_social">
+          <a href="https://www.facebook.com/profile.php?id=100091956073285&mibextid=ZbWKwL"
+            className="footer_social-link">
+            <i className="ri-facebook-circle-fill"></i>
+          </a>
+
+          <a href="https://instagram.com/zakinoorani.28?igshid=NGVhN2U2NjQ0Yg=="
+            className="footer_social-link">
+            <i className="ri-instagram-fill"></i>
+          </a>
+
+          <a href="https://github.com/Zakinoorani28" className="footer_social-link">
+            <i className="ri-github-fill"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/zaki-noorani-3a62151b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=and"
+            className="footer_social-link">
+            <i className="ri-linkedin-box-fill"></i>
+          </a>
+        </div>
+
       </div>
 
       <div className="right-column">
@@ -105,6 +127,7 @@ function App() {
         </div>
 
       </div>
+
     </div>
   );
 }

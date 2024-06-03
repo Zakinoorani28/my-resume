@@ -126,6 +126,27 @@
     margin-bottom: 20px;
 }
 
+.footer_social {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.footer_social a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+   
+}
+
+.footer_social-link {
+    font-size: 1.5rem;
+    transition: transform 0.4s;
+}
+
+.footer_social-link:hover {
+    transform: translateY(-0.25rem);
+}
+
 /* Responsive design for mobile screen size */
 @media only screen and (max-width: 768px) {
     .container {
@@ -141,3 +162,5 @@
         width: 100%;
     }
 }
+
+/* \end{code}  */
